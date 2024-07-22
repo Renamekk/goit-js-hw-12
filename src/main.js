@@ -13,7 +13,7 @@ async function handlerSearch(event) {
     event.preventDefault();
 
     refs.gallery.innerHTML = "";
-    
+    searchParams.page = 1;
     const form = event.currentTarget;
     searchParams.q = form.elements.searchtext.value.trim();
 

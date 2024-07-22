@@ -3,12 +3,11 @@ import axios from "axios";
 export const searchParams = {
     key: "44868701-a6c2bf036a020cab1604664f3",
     q: "",
-    imageType: "photo",
+    image_type: "photo",
     orientation: "horizontal",
     safesearch: true,
     page: 1,
     per_page: 15,
-    maxPage: 0,
 };
 
 export async function getPictures() {
